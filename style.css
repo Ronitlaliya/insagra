@@ -1,0 +1,217 @@
+.container{
+    /* border: solid black; */
+    height: 84vmin;
+    width: 50vmin;
+    margin-top: 5%;
+    border-radius: 3vmin;
+}
+#icon{
+    height: 6vmin;
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#like-icon{
+    margin-left: 20vmin;
+}
+#like-img{
+ border: solid white;
+}
+#insta-icon{
+    margin-left: 0.5vmin;
+    margin-top: 0.5vmin;
+}
+
+.insta-img{
+    width: 18vmin;
+    height: 4vmin;
+    object-fit: fill;
+    background-image: cover;
+}
+#msg-icon{
+margin-right: 3vmin;
+}
+
+.storys{
+    /* border: solid yellow; */
+    height: 14vmin;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 5px; */
+}
+#my-story{
+    border: solid rgb(243, 45, 81);
+    height: 8vmin;
+    width: 8vmin;
+    margin-top: 2px;
+    border-radius: 50%;
+
+}
+#story1{
+    border: solid rgb(243, 45, 81);
+    height: 8vmin;
+    width: 8vmin;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+#story2{
+    border: solid rgb(243, 45, 81);
+    height: 8vmin;
+    width: 8vmin;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+#story3{
+    border: solid rgb(243, 45, 81);
+    height: 8vmin;
+    width: 8vmin;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+#story4{
+    border: solid rgb(243, 45, 81);
+    height: 8vmin;
+    width: 8vmin;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+.story-font{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.darshan{
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 50%;
+
+}
+
+.arijit{
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 50%;
+}
+.radhy{
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 50%;
+}
+.my{
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 50%;
+}
+.git{
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 50%;
+}
+.sugge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vmin;
+}
+#suggested{
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 8px;
+}
+#posts{
+    font-weight: 600;
+    color: rgb(25, 116, 152);
+    padding-right: 8px;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choti-dp{
+    height: 3vmin;
+    width: 3vmin;
+    border-radius: 50%;
+    border: solid green;
+    margin-left: 8px;
+}
+.follow-btn{
+    margin-right: 18px;
+
+}
+#btn{
+    height: 3vmin;
+    width: 10vmin;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(196, 191, 191);
+    padding: 3px , 3px,3px,3px
+}
+
+#btn:active{
+    background-color: rgb(75, 75, 236);
+}
+.username{
+    margin-right: 23vmin;
+    font-weight: 600;
+    padding-left: 1vmin;
+    
+    
+}
+.post-dp{
+    height: 3vmin;
+    width: 3vmin;
+    border-radius: 50%;
+}
+.photo{
+    /* border: solid blue; */
+    height: 40vmin;
+    margin-top: 2px;
+}
+.photoss{
+    width: 50vmin;
+    height: 40vmin;
+}
+.likeshare{
+    /* border: solid green; */
+    height: 4.5vmin;
+    border-radius: 2vmin;
+    display: flex;
+}
+#like-post{
+ /* border: solid black; */
+ width: 4vmin;
+ margin-left: 8px;
+ padding-top: 6px;
+}
+#comment-post{
+    /* border: solid black; */
+    width: 4vmin;
+    padding-top: 6px;
+}
+#share-post{
+    /* border: solid black; */
+    width: 4vmin;
+    padding-top: 6px;
+}
+#save-post{
+    /* border: solid black; */
+    width: 4vmin;
+    margin-left: 30vmin;
+    padding-top: 6px;
+}
+.footer{
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn:hover{
+    border: solid black;
+}
+.fa-regular.fa-heart:active{
+    color: red;
+}
